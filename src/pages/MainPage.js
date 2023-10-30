@@ -5,24 +5,29 @@ import { useState, useEffect } from "react";
 
 const MyWeb = [
   {
-        title: "깃허브",
-        url: "https://github.com",
-        color: "#000000",
-        icon: "logo-github",
-        status: undefined
-    },
-    {
-        title: "구글",
-        url: "https://google.com",
-        color: "#4285F4",
-        icon: "logo-google",
+        "title": "COCOA(카카오톡 데스크탑 클론 프로젝트)",
+        "url": "https://cocoa.kesuna.com/",
+        "color": "#fee500",
+        "icon": "leaf-outline",
         status: "ok"
     }, {
-        title: "네이버",
-        url: "https://naver.com",
-        color: "#05D686",
-        icon: "extension-puzzle-outline",
-        status: "error"
+        "title": "StudyRoom 관리프로그램",
+        "url": "https://store.kesuna.com/",
+        "color": "#7ed0ed",
+        "icon": "storefront-outline",
+        status: "ok"
+    }, {
+        "title": "Lecture with Note",
+        "url": "https://lecture.kesuna.com",
+        "color": "#7ed0ed",
+        "icon": "leaf-outline",
+        status: "ok"
+    }, {
+        title: "깃허브",
+        url: "https://github.com/kkyubrother",
+        color: "#000000",
+        icon: "logo-github",
+        status: "ok"
     }
 ]
 
