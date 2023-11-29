@@ -1,6 +1,7 @@
 .main {
-  max-width: 400px;
-  background-color: #fff;
+  max-width: 480px;
+  background-color: #eee;
+  /*background-color: #fff;*/
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -9,11 +10,14 @@
   transition: 0.5s;
   overflow: hidden;
   min-width: 320px;
+
+  padding: 2rem;
 }
 
 .main .profile {
   position: relative;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 10px 0;
@@ -35,6 +39,14 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.main .profile .myExplain {
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.75rem;
+  /*color: whitesmoke;*/
 }
 
 .main .menu {
